@@ -1,0 +1,35 @@
+{
+  "name": "deno",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "deno.js",
+  "dependencies": {
+    "typescript": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.0",
+    "validator": "^13.9.0"
+  },
+  "imports": {
+    "bcryptjs": "https://www.npmjs.com/package/bcryptjs@2.4.3",
+    "express": "https://www.npmjs.com/package/express@4.18.2",
+    "jsonwebtoken": "https://www.npmjs.com/package/jsonwebtoken@9.0.1",
+    "mongoose": "https://www.npmjs.com/package/mongoose@7.4.0",
+    "validator": "https://www.npmjs.com/package/validator@13.9.0",
+    "/": "./",
+    "./": "./"
+  },
+  "devDependencies": {
+    "env-cmd": "https://www.npmjs.com/package/env-cmd@10.1.0",
+    "nodemon": "https://www.npmjs.com/package/nodemon@3.0.1"
+  },
+  "scripts": {
+    "start": "deno run --allow-all deno.js",
+    "dev": "deno run deno.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

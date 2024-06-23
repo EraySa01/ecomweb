@@ -22,7 +22,7 @@
     "./": "./"
   },
   "devDependencies": {
-    "env-cmd": "https://www.npmjs.com/package/env-cmd@10.1.0",
+    "env-cmd": "https://www.npmjs.com/package/env-cmd",
     "nodemon": "https://www.npmjs.com/package/nodemon@3.0.1"
   },
   "scripts": {
